@@ -118,8 +118,8 @@ fun CompressionScreen(
                     horizontalArrangement = Arrangement.SpaceEvenly
                 ) {
                     // Map the math from our state to the UI
-                    MetricItem("Original Size", "${state.originalSize} chars")
-                    MetricItem("Compressed", "${state.compressedSize} units")
+                    MetricItem("Original Size", "${state.originalSize} bits")
+                    MetricItem("Compressed", "${state.compressedSize} bits")
 
                     // Format the Double to 2 decimal places so it looks clean (e.g. "1.45")
                     // Note: String.format is JVM specific, for pure KMP commonMain use:
