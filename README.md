@@ -8,7 +8,7 @@ A cross-platform application built for Windows, Android, and the Web to demonstr
 You can download the ready-to-run packaged versions of the application directly from the **[Releases](https://github.com/Sherif-Moheep/InformationTheoryPractical/releases)** tab on GitHub:
 * **🪟 Windows:** Download the standalone `.exe` installer.
 * **📱 Android:** Download and install the `.apk` file directly to your device.
-* **🌐 Web:** [Click here to use the live web version](https://sherif-moheep.github.io/InformationTheoryPractical/) *(Note: Make sure GitHub Pages is enabled in your repo settings!)*
+* **🌐 Web:** [Click here to use the live web version](https://sherif-moheep.github.io/InformationTheoryPractical/)
 
 ## 📸 Screenshots
 
@@ -41,18 +41,3 @@ This project strictly adheres to **Clean Architecture**:
 * **`domain/`**: Contains the abstract `TextCompressor` interface, standard `CompressionResult` models, and the `UseCases` (`CompressTextUseCase`, `DecompressTextUseCase`).
 * **`domain/algorithms/`**: Contains the isolated math and logic for all 5 compression algorithms.
 * **`di/`**: Contains the Koin module (`DiModule.kt`) and `CompressorProvider` to wire the layers together.
-
----
-
-## 🚀 Building from Source
-
-If you want to run the code locally or contribute to the project, follow the platform-specific instructions below.
-
-### Prerequisites
-* Java Development Kit (JDK) 17+
-* Android Studio (Ladybug or newer) or IntelliJ IDEA (with Kotlin Multiplatform plugin)
-
-Clone the repository:
-```bash
-git clone [https://github.com/Sherif-Moheep/InformationTheoryPractical.git](https://github.com/Sherif-Moheep/InformationTheoryPractical.git)
-cd InformationTheoryPractical
